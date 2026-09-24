@@ -1,22 +1,58 @@
 # Algorithms and Programming Course Project
 
-> Academic repository for the "Algorithms and Programming" course. Implementation of foundational data processing algorithms, practical assignments, and coursework preparation materials.
+> Учебный репозиторий по дисциплине «Алгоритмы и программирование». Практическая реализация алгоритмов поиска и сортировки, анализ временной сложности.
 
 ## Tech Stack
-* **Programming Language:** Python 3.13
-* **Development Environment:** Visual Studio Code
-* **Version Control:** Git / GitHub
+* **Language:** Python 3.12+
+* **Environment:** Python Virtual Environment (`venv`)
+* **Tools:** Visual Studio Code, Git
 
 ## Repository Structure
 
 ```text
 Alg_and_prog/
-├── Documentation/          # Methodological guidelines, term paper requirements
-├── PZ/                     # Practical works (PZ)
-│   ├── PZ1/                # Practice #1: Linear and Binary Search
-│   │   ├── pz_1.py         # 
-│   │   ├── task_1.txt      # Input parameters and test datasets
-│   │   └── README.md       # 
-│   └── PZ2/                # Practice #2: Selection Sort and Bubble Sort
-├── .gitignore              # Ignor fo Git
-└── README.md               # Main project documentation
+├── Documentation/                 # Регламенты, методические материалы и темы курсовых работ
+│   ├── Методические рекомендации.pdf
+│   ├── Оформление курсовых.docx
+│   ├── Примерный перечень вопросов по дисциплине АИП.docx
+│   ├── Список тем курсовых_АиП.docx
+│   └── Титульник.docx
+├── PZ/                            # Практические занятия (Practical Works)
+│   ├── pz_01_search/              # Практика 1: Линейный и бинарный поиск
+│   │   ├── README.md              # Отчет и ответы на теоретические вопросы
+│   │   ├── solution.py            # Программный код алгоритмов поиска на Python
+│   │   └── task.md                # Текст методички и условий задач
+│   └── pz_02_sorting/             # Практика 2: Сортировка выбором и пузырьком
+│       ├── README.md              # Отчет и расчет сложности алгоритмов
+│       ├── solution.py            # Программный код сортировок на Python
+│       └── task.md                # Текст методички и условий задач
+├── .gitignore                     # Исключение для git
+└── README.md                      # Главная документация
+```
+
+## Assignment Workflow & Engineering Standards
+
+Под каждое практическое занятие оводится отдельная папка в формате `pz_<number>_<theme>`,каждая из которых оформляется по единому принципу:
+
+1. **Requirements Specification (`task.md`):** Формулировка условий, математическая база и примеры работы алгоритмов.
+2. **Environment Isolation (`venv`):** Все вычисления и запуск скриптов выполняются в изолированном виртуальном окружении Python без влияния на системные библиотеки.
+3. **Modular Implementation (`solution.py`):**
+   - Написание алгоритмических функций по заданию из `task.md`.
+4. **Report & Documentation (`README.md`):** Ответы на теоретические вопросы, по необходимости, дополнительные заметки по заданию.
+
+## Getting Started
+
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/MrMarkus743/Alg_and_prog
+```
+```bash
+cd Alg_and_prog
+```
+
+### 2. Запуск практических работ
+Запуск скрипта любой практической работы выполняется из корня репозитория:
+```powershell
+python PZ/pz_01_search/solution.py
+python PZ/pz_02_sorting/solution.py
+```
