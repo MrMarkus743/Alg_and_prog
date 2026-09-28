@@ -97,7 +97,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone [https://github.com/](https://github.com/)<ваш-аккаунт>/Alg_and_prog.git
+git clone https://github.com/MrMarkus743/Alg_and_prog
 cd Alg_and_prog
 ```
 
