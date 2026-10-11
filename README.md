@@ -62,8 +62,8 @@
 | Модуль | Тема работы | Реализуемые алгоритмы и структуры | Статус |
 | :--- | :--- | :--- | :---: |
 | **01. Search** | Линейный и бинарный поиск | Linear Search, Binary Search (Left/Right bounds) | 🟢 Done |
-| **02. Sorting I** | Базовые квадратичные сортировки | Selection Sort, Bubble Sort (с флагом перестановок) | 🟡 In Progress |
-| **03. Recursion & Stack** | Рекурсия и структура данных Стек | Call Stack, хвостовая рекурсия, валидация скобок | ⚪ Planned |
+| **02. Sorting I** | Базовые квадратичные сортировки | Selection Sort, Bubble Sort (с флагом перестановок) | 🟢 Done |
+| **03. Recursion & Stack** | Рекурсия и структура данных Стек | Call Stack, хвостовая рекурсия, валидация скобок | 🟡 In Progress |
 | **04. Sorting II** | Эффективные сортировки («Разделяй и властвуй») | Quick Sort (разные опорные элементы), Merge Sort | ⚪ Planned |
 | **05. Queue & Deque** | Очередь и двусторонняя очередь | FIFO Queue, Deque (`collections.deque`, `queue.Queue`) | ⚪ Planned |
 | **Доп. OOP** | Объектно-ориентированное программирование | Наследование, инкапсуляция (`@property`), полиморфизм | ⚪ Planned |
